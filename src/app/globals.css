@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -24,3 +25,35 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+ .primary-bg-color{
+  background-color: #22c55e; 
+  }
+ .primary-color{
+  color: #22c55e; 
+ }
+ .hover-primary-bg-color:hover {
+    @apply transition bg-green-500 text-white;
+  }
+  .hover-primary-color:hover {
+    @apply transition text-green-500;
+  }
+}
+
+
+@keyframes marqueeFallback {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-40%); }
+}
+
+.marquee-viewport { overflow: hidden; }
+.marquee-track {
+  display: flex;
+  width: 200%;
+  align-items: center;
+  animation: marqueeFallback 20s linear infinite;
+  will-change: transform;
+}
+.marquee-viewport:hover .marquee-track { animation-play-state: paused; }
+
