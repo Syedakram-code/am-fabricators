@@ -69,7 +69,6 @@ export default function QuoteForm() {
       )}
 
       <form onSubmit={handleSubmit} className="space-y-5">
-        {/* Name */}
         <div>
           <label className="block mb-1 font-medium">Full Name</label>
           <input
@@ -85,7 +84,6 @@ export default function QuoteForm() {
           {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
         </div>
 
-        {/* Email */}
         <div>
           <label className="block mb-1 font-medium">Email</label>
           <input
@@ -101,7 +99,6 @@ export default function QuoteForm() {
           {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
         </div>
 
-        {/* Phone */}
         <div>
           <label className="block mb-1 font-medium">Phone</label>
           <input
@@ -117,7 +114,6 @@ export default function QuoteForm() {
           {errors.phone && <p className="text-red-500 text-sm">{errors.phone}</p>}
         </div>
 
-        {/* Service Dropdown */}
         <div>
           <label className="block mb-1 font-medium">Service</label>
           <select
@@ -137,7 +133,6 @@ export default function QuoteForm() {
           {errors.service && <p className="text-red-500 text-sm">{errors.service}</p>}
         </div>
 
-        {/* Message */}
         <div>
           <label className="block mb-1 font-medium">Message</label>
           <textarea
@@ -155,10 +150,9 @@ export default function QuoteForm() {
           )}
         </div>
 
-        {/* Submit Button */}
         <button
           type="submit"
-          className="w-full primary-bg-color text-white py-3 rounded-lg font-semibold shadow-md hover:bg-blue-700 transition transform hover:scale-105"
+          className="w-full primary-bg-color text-white py-3 rounded-lg font-semibold shadow-md transition transform hover:bg-green-700 hover:cursor-pointer"
         >
           Request Quote
         </button>

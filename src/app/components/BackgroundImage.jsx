@@ -2,7 +2,7 @@ import React from "react";
 
 const BackgroundImage = () => {
   return (
-    <div className="absolute top-0 left-0 w-full h-full -z-10">
+    <div className="fixed top-0 left-0 w-full h-full -z-10">
       <div
         className="w-full h-full bg-cover bg-center"
         style={{

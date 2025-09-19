@@ -3,7 +3,7 @@ import Services from "./Services";
 
 const Hero = () => {
   return (
-    <section className="text-center mt-12 px-4">
+    <section className="text-center px-4">
       <h1 className="text-2xl md:text-3xl font-bold primary-color">
         A.M FABRICATORS AND ENGINEERING WORKS
       </h1>
