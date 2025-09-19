@@ -35,7 +35,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-20 left-0 w-full bg-gray-200 primary-color shadow-md flex flex-col items-center space-y-4 py-6 md:hidden">
+        <div className="absolute z-100 top-20 left-0 w-full bg-gray-200 primary-color shadow-md flex flex-col items-center space-y-4 py-6 md:hidden">
           <Link href="/" onClick={() => setIsOpen(false)} className="hover-primary-color">Home</Link>
           <Link href="/about" onClick={() => setIsOpen(false)} className="hover-primary-color">About</Link>
           <Link href="#" onClick={() => setIsOpen(false)} className="hover-primary-color">Projects</Link>
