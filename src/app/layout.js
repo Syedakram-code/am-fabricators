@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "A.M FABRICATORS",
   description: "Engineering your vision into reality.",
+  icons: {
+    icon: "/images/amfab.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
