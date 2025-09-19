@@ -9,8 +9,7 @@ const ContactUs = () => {
         <div className="relative h-64 md:h-auto">
           <img
             src="/images/Welding-image.jpg"
-            alt="Building"
-            fill
+            alt="Welding"
             className="object-cover"
           />
         </div>
