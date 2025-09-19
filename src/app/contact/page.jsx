@@ -10,7 +10,7 @@ const ContactUs = () => {
           <img
             src="/images/Welding-image.jpg"
             alt="Welding"
-            className="object-cover"
+            className="object-fill h-full"
           />
         </div>
 
