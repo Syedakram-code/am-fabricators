@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 
 const ContactUs = () => {
   return (
@@ -8,7 +7,7 @@ const ContactUs = () => {
     <div className="min-h-screen flex items-center justify-center px-6 py-12">
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 shadow-lg rounded-2xl overflow-hidden">
         <div className="relative h-64 md:h-auto">
-          <Image
+          <img
             src="/images/Welding-image.jpg"
             alt="Building"
             fill
