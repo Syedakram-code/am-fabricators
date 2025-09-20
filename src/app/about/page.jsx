@@ -6,7 +6,7 @@ const AboutPage = () => {
   const [mdRef, mdVisible] = useInView(0.3);
   const [ceoRef, ceoVisible] = useInView(0.3);
   return (
-    <div className="max-w-7xl mx-auto px-6 py-16 space-y-20">
+    <div className="max-w-7xl mx-auto px-6 py-16 space-y-20 overflow-hidden">
       <section className="text-center space-y-6">
         <h1 className="text-4xl font-bold primary-color">About Us</h1>
         <p className="text-white-600 leading-relaxed max-w-4xl mx-auto">
